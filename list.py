@@ -1,6 +1,6 @@
 from neo4j import GraphDatabase
  
-# Create a database
+# Create a database  
 db = GraphDatabase('/tmp/')
 
 user_idx = db.node.indexes.users
